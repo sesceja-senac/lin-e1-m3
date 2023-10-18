@@ -1,0 +1,604 @@
+body {
+  background-repeat: repeat !important;
+  background-position: center !important;
+  background-attachment: initial !important;
+}
+
+.container {
+  padding: 4px 40px;
+  border-radius: 25px;
+  position: relative;
+  z-index: 2;
+}
+header .container, footer.container{
+  background-color: transparent;
+}
+
+h2,h3,h4,h5,h6 {
+  color: #00838D;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+h4 {
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+h5 {
+  font-size: 19px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+figure {
+  text-align: center;
+}
+
+figure img, img {
+  max-width: 100%;
+}
+figure img{
+  border-radius: 20px;
+  filter: drop-shadow(#424242 4px 4px 4px);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.calc-imc {
+  border-radius: 20px;
+  background-color: #ff9900;
+  padding: 30px;
+}
+
+.calc-imc form {
+  background-color: #004f53;
+  padding: 20px;
+}
+
+.calc-imc p {
+  color: #fff;
+  margin-top: 30px;
+}
+
+figure figcaption {
+  font-size: 12px;
+  text-align: center;
+}
+
+.objeto-audio1 {
+  width: 652px;
+  height: 658px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/obj/obj1/botao-audio-garota.png);
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.objeto-audio1__img {
+  position: absolute;
+  transition: 400ms;
+}
+
+.objeto-audio1__img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.objeto-audio1__img--1 {
+  top: 160px;
+  right: 35px;
+}
+
+.objeto-audio1__img--2 {
+  right: 35px;
+  top: 250px;
+}
+
+.objeto-audio1__img--3 {
+  right: 35px;
+  top: 344px;
+}
+
+.objeto-audio1__img--4 {
+  right: 35px;
+  top: 438px;
+}
+
+.objeto-audio1__img--5 {
+  right: 33px;
+  top: 528px;
+}
+
+.objeto-audio1__img--6 {
+  top: 157px;
+  left: 28px;
+}
+
+.objeto-audio1__img--7 {
+  top: 247px;
+  left: 28px;
+}
+
+.objeto-audio1__img--8 {
+  top: 341px;
+  left: 28px;
+}
+
+.objeto-audio1__img--9 {
+  top: 435px;
+  left: 28px;
+}
+
+.objeto-audio1__img--10 {
+  top: 525px;
+  left: 28px;
+}
+
+.objeto-1-mobile__en,
+.objeto-1-mobile__pt {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.objeto-1-mobile {
+  display: none;
+}
+
+.icon-play {
+  cursor: pointer;
+}
+
+/*
+.caixa {
+  color: #00838D;
+  border-color: #00838D;
+  margin-bottom: 30px;
+}
+*/
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.tooltip-sesc {
+  border-bottom: 2px dotted #00838D;
+  padding: 0px 4px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.info-beneficios {
+  text-align: center;
+}
+
+.carousel-item figure img {
+  max-height: 500px;
+}
+
+.accordion-collapse figure img {
+  max-height: 500px;
+}
+
+.bt-libras {
+  background-repeat: no-repeat;
+  background-image: url(../img/ilustra/botao-libras.png);
+  background-position: left center;
+  width: 166px;
+  height: 208px;
+}
+
+.bt-libras:hover {
+  background-position: right center;
+  cursor: pointer;
+}
+
+.center-flex {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40PX;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.icone.conar::before {
+  background-image: url(../img/icons/logo-conar.png);
+}
+
+.botao_enganosa {
+  background-image: url(../img/ilustra/botao-enganoso.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 231px;
+}
+
+.botao_enganosa:hover {
+  background-position: right center;
+  cursor: pointer;
+}
+
+.botao_abusiva {
+  background-image: url(../img/ilustra/botao-abusivo.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 262px;
+}
+
+.botao_abusiva:hover {
+  background-position: right center;
+  cursor: pointer;
+}
+
+.citacao {
+  padding-left: 5vw;
+  font-size: 14px;
+  font-family: cursive;
+  text-align: justify;
+  font-style: italic;
+}
+
+.modal-title {
+  color: #ffffff;
+}
+
+.bt-argumento {
+  background-position: left center;
+  width: 273px;
+  height: 289px;
+  background-repeat: no-repeat;
+  background-image: url(../img/ilustra/botao-discurso.png);
+}
+
+.bt-argumento:hover {
+  cursor: pointer;
+  background-position: right center;
+}
+
+.referencias p {
+  word-wrap: break-word;
+  word-break: keep-all;
+}
+
+.mapa {
+  background-image: url(../img/obj/mapa/mapa-1.png);
+  width: 800px;
+  height: 613px;
+  position: relative;
+}
+
+.mapa_pin {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid #fff;
+  position: absolute;
+  transition: 400ms;
+}
+
+.mapa_pin:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.mapa_norte {
+  left: 200px;
+  top: 100px;
+}
+
+.mapa_norte_box,
+.mapa_nordeste_box,
+.mapa_centroeste_box,
+.mapa_sudeste_box,
+.mapa_sul_box  {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-75%);
+  display: none;
+}
+
+.mapa_nordeste {
+  right: 100px;
+  top: 200px;
+}
+
+.mapa_centroeste {
+  top: 250px;
+  right: 400px;
+}
+
+.mapa_sudeste {
+  top: 300px;
+  right: 200px;
+}
+
+
+.mapa_sul {
+  top: 400px;
+  right: 325px;
+}
+
+
+.mapa_mobile {
+  display: none;
+}
+
+.custom_painel {
+  width: 598px;
+  height: 492px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/obj/painel/painel-clicavel-layout.png);
+  position: relative;
+}
+
+.painel_clicavel_img {
+  position: absolute;
+  transition: 300ms;
+}
+
+.painel_clicavel_img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.clicavel_img--1 {
+  bottom: 89px;
+  left: 7px;
+}
+
+.clicavel_img--2 {
+  left: 55px;
+  top: 64px;
+}
+
+.clicavel_img--3 {
+  top: -10px;
+  left: 213px;
+}
+
+.clicavel_img--4 {
+  top: 81px;
+  right: 32px;
+}
+
+.clicavel_img--5 {
+  bottom: 96px;
+  right: 10px;
+}
+
+
+.pagination {
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.pagination li.active a,
+.pagination li.active a:visited{
+  background-color: rgb(0, 131, 141);
+  color: #fff;
+}
+.pagination li a:visited {
+  background-color: #cce6e8;
+}
+
+
+
+/*-------------- Novas Classes --------------*/
+
+/*--- Menu ---*/
+.dropdown-menu{
+  background: #707070;
+  border-radius: 0;
+  padding: 20px 35px;
+  box-shadow: 4px 4px 0px rgba(187, 187, 187, 0.8);
+  left: -1px !important;
+  top: -2px !important;
+
+}
+.dropdown-menu a{
+  border-bottom: 1px solid #fff;
+  padding: 0;
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+  color: #fff;
+}
+.dropdown-menu a:hover{
+  color: #fff;
+  background: none;
+  text-decoration: underline;
+}
+.dropdown-menu ul a i{
+  display: none;
+}
+.dropdown-menu ul a.ativo i{
+  display: inline;
+  margin-left: -15px;
+}
+.dropdown-menu li:last-child a{border: none;}
+.bt-close{
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  background: none;
+  border: none;
+}
+.fixar {
+  position:fixed;
+  width: 100%;
+  top: 0;
+  margin-top: unset;
+  z-index: 9;
+ 
+}
+.dropdown-menu ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+    
+}
+.accordion-button i{
+  font-size: 20px;
+  margin: 0 10px;
+}
+.dropdown-toggle::after{display: none;}
+.bg-light{
+  background: #e2e2e2;
+  border-bottom: 2px solid #a8a8a8;
+  border-top: 2px solid #bdbdbd;
+}
+.navbar-collapse{
+  background: none;
+}
+.nav-link i{
+  font-size: 25px;
+  color: #848383;
+  margin-right: 10px;
+}
+.navbar{
+  padding: 0;
+}
+.navbar-light .navbar-nav .nav-link{
+  padding: 5px 0;
+}
+.offcanvas{background-color: #00838d;}
+
+.dropdown button{
+  background: url("../img/menu-alt.png") center no-repeat;
+  background-color:#fff;
+  background-size: 70%;
+  box-shadow: 4px 4px 0px rgba(187, 187, 187, 0.8);
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  padding: 20px;
+  top: 15px;
+  left: 15px;
+  position: fixed;
+  z-index: 99999;
+}
+.dropdown-menu{
+  background: unset;
+  background-color: #00838D !important;
+
+}
+.bg-fundo {
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  z-index: 500;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  display: none;
+}
+
+.bg-fundo {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+/*--- /Menu ---*/
+
+.mx-auto{
+  margin: 30px auto;
+}
+
+.caixa {
+  border: none;
+  border-radius: 25px;
+  background-color: #fff;
+  color: #333;
+  width: 80%;
+  margin: 50px auto !important;
+  display: block;
+  box-shadow: #505050 4px 2px 10px;
+}
+.caixa.icone {
+  color: #333;
+}
+.icone::before {
+  background-color: transparent;
+}
+
+.youtube-pl{
+  width: 640px;
+  height: 360px;
+}
+
+.slide{
+  border: #00838D solid 3px;
+  padding-top: 20px;
+}
+
+div.destaque{
+  background-color: #00838D;
+  color: #fff;
+}
+.destaque h4{
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/*-------------- /Novas Classes --------------*/
+
+
+
+@media only screen and (max-width: 850px) {
+  .aviso_mobile {
+    display: none;
+  }
+  .mapa {
+    display: none;
+  }
+  .mapa_mobile {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .objeto-audio1 {
+    display: none;
+  }
+
+  .objeto-1-mobile {
+    display: block;
+  }
+
+  .custom_painel {
+    transform: scale(0.5);
+    margin-left: -142px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .youtube-pl{
+    width: 320px;
+    height: 180px;
+  }
+
+  .caixa {
+    width: 100%;
+  }
+}
