@@ -22,6 +22,8 @@ jQuery("document").ready(function($){
     document.body.style.backgroundImage = "url('assets/img/textura_branco.png')";
   }else if(pg_number == 4 || pg_number == 5){
     document.body.style.backgroundImage = "url('assets/img/textura_laranja.png')";
+  }else if(pg_number == 9){
+    document.body.style.backgroundImage = "url('assets/img/background_referencias.png')";
   }else{
     document.body.style.backgroundImage = "url('assets/img/textura_branco.png')";
   }
