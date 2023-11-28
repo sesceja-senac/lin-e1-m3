@@ -265,12 +265,12 @@ figure figcaption {
   width: 273px;
   height: 289px;
   background-repeat: no-repeat;
-  background-image: url(../img/ilustra/botao-discurso.png);
+  background-image: url(../img/ilustra/bt_discurso.png);
 }
 
 .bt-argumento:hover {
   cursor: pointer;
-  background-position: right center;
+  background-image: url(../img/ilustra/bt_discurso_hv.png);
 }
 
 .referencias p {
@@ -344,12 +344,13 @@ figure figcaption {
 }
 
 .custom_painel {
-  width: 598px;
-  height: 492px;
+  width: 538px;
+  height: 472px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../img/obj/painel/painel-clicavel-layout.png);
+  background-image: url(../img/obj/painel/painel_clicavel_layout.png);
   position: relative;
+  background-repeat: no-repeat;
 }
 
 .painel_clicavel_img {
@@ -363,8 +364,8 @@ figure figcaption {
 }
 
 .clicavel_img--1 {
-  bottom: 89px;
-  left: 7px;
+  bottom: 44px;
+  left: 2px;
 }
 
 .clicavel_img--2 {
