@@ -16,11 +16,11 @@ jQuery("document").ready(function($){
 
   //alert('Página: '+pg_number);
 
-  if(pg_number == 1 || pg_number == 3 || pg_number == 6 || pg_number == 8){
+  if(pg_number == 1 || pg_number == 3 || pg_number == 6 || pg_number == 7){
     document.body.style.backgroundImage = "url('assets/img/textura_verde.png')";
-  }else if(pg_number == 2 || pg_number == 7){
-    document.body.style.backgroundImage = "url('assets/img/textura_branco.png')";
-  }else if(pg_number == 4 || pg_number == 5){
+  }else if(pg_number == 8){
+    document.body.style.backgroundColor = "#c5e4f8";
+  }else if(pg_number == 2 || pg_number == 4 || pg_number == 5){
     document.body.style.backgroundImage = "url('assets/img/textura_laranja.png')";
   }else if(pg_number == 9){
     document.body.style.backgroundImage = "url('assets/img/background_referencias.png')";
