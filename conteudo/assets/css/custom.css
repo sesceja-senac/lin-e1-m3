@@ -396,7 +396,6 @@ figure figcaption {
   right: -14px;
 }
 
-
 .pagination {
   justify-content: center;
   margin-top: 40px;
@@ -469,7 +468,6 @@ figure figcaption {
   top: 0;
   margin-top: unset;
   z-index: 9;
-
 }
 
 .dropdown-menu ul {
@@ -822,11 +820,6 @@ div.destaque {
 
 /*-------------- /Novas Classes --------------*/
 
-@media only screen and (max-width: 1500px) {
-  .elementos_bg {}
-
-}
-
 @media only screen and (max-width: 1440px) {
 
   /*---- PG 1 ----*/
@@ -1058,14 +1051,7 @@ div.destaque {
     height: 847px;
     scale: 0.7;
   }
-
-
-
 }
-
-
-
-
 
 
 @media only screen and (max-width: 1400px) {
@@ -1485,35 +1471,36 @@ div.destaque {
     height: 872px;
     scale: 0.7;
   }
- /*---- PG 8 ----*/
- .pg8-elemento_1 {
-  left: 0;
-  margin-left: -34%;
-  margin-top: -60px;
-  width: 510px;
-  height: 1015px;
-  scale: 0.6;
-}
 
-.pg8-elemento_2 {
-  right: 0;
-  bottom: 0;
-  margin-right: -29.9%;
-  margin-bottom: 144%;
-  width: 450px;
-  height: 909px;
-  scale: 0.7;
-}
+  /*---- PG 8 ----*/
+  .pg8-elemento_1 {
+    left: 0;
+    margin-left: -34%;
+    margin-top: -60px;
+    width: 510px;
+    height: 1015px;
+    scale: 0.6;
+  }
 
-.pg8-elemento_3 {
-  left: 0;
-  bottom: 0;
-  margin-left: -30%;
-  margin-bottom: -20px;
-  width: 447px;
-  height: 847px;
-  scale: 0.7;
-}
+  .pg8-elemento_2 {
+    right: 0;
+    bottom: 0;
+    margin-right: -29.9%;
+    margin-bottom: 144%;
+    width: 450px;
+    height: 909px;
+    scale: 0.7;
+  }
+
+  .pg8-elemento_3 {
+    left: 0;
+    bottom: 0;
+    margin-left: -30%;
+    margin-bottom: -20px;
+    width: 447px;
+    height: 847px;
+    scale: 0.7;
+  }
 }
 
 
